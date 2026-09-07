@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.pyo
+.env
+ui/
+main.py
+editor.py
+recent_files.json

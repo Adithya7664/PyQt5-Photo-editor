@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Neural style models (large .pth files — download separately)
+models/
+
+# User data
+recent_files.json
+.env
+.env.*
