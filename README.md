@@ -67,7 +67,7 @@ Full painting overlay that sits on top of the photo without destroying it.
 
 | Style | Model file |
 |-------|-----------|
-| Anime / Ghibli | AnimeGAN2 (`paprika` weights, auto-downloaded via torch.hub) |
+| Anime / Ghibli *(experimental, output quality unreliable)* | AnimeGAN2 (`paprika` weights, auto-downloaded via torch.hub) |
 | Starry Night | `starry_night.pth` |
 | Mosaic | `mosaic.pth` |
 | Candy | `candy.pth` |
@@ -120,7 +120,7 @@ python main.py
 
 ## Neural style models
 
-The Anime / Ghibli style downloads its weights automatically on first use via `torch.hub`.
+The experimental Anime / Ghibli style downloads its weights automatically on first use via `torch.hub`; its results are not consistently good, unlike the other styles.
 
 For the four fast-NST styles (Starry Night, Mosaic, Candy, Rain Princess), download the `.pth` files from the [PyTorch fast-neural-style examples](https://github.com/pytorch/examples/tree/main/fast_neural_style) and place them in a `models/` folder in the project root:
 
